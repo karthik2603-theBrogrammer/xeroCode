@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xeroCode - Welcome to Your Future</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="loader">
+        <span>x</span>
+        <span>E</span>
+        <span>R</span>
+        <span>O</span>
+        <span>C</span>
+        <span>O</span>
+        <span>D</span>
+        <span>E</span>
+      </div>
+      <div id="chat_container"></div>
+      <form>
+        <textarea
+          name="prompt"
+          rows="1"
+          cols="1"
+          placeholder="Ask xeroCode anything.."
+        ></textarea>
+        <button type="submit" class="glow-on-hover" id="submit">
+          <img src="assets/send.svg" />
+        </button>
+      </form>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
